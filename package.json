@@ -3,10 +3,9 @@
   "description": "TODO",
   "version": "0.0.1",
   "scripts": {
-    "dev": "sapper dev",
-    "build": "sapper build",
-    "export": "sapper export",
-    "start": "node __sapper__/build",
+    "start": "sapper dev",
+    "dev": "npm start",
+    "build": "sapper export",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
   },
   "engines": {
