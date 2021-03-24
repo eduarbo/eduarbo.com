@@ -10,7 +10,7 @@
     "validate": "svelte-check --ignore src/node_modules/@sapper"
   },
   "engines": {
-    "node": "14.16.x"
+    "node": "14.x"
   },
   "dependencies": {
     "compression": "^1.7.1",
